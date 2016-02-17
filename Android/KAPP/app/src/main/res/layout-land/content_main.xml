@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.bitcakecodes.kapp.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider"
+        android:layout_below="@id/firstimage"
+        android:id="@+id/view1"/>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@id/view1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textColor="@color/primary_text"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+
+            android:textSize="20sp"
+            android:typeface="sans"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:text="Kathmandu University"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:paddingLeft="16dp"
+            android:text="Top Destinations : "
+            android:textAllCaps="true"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider"/>
+
+
+
+
+        <Button
+            android:id="@+id/one"
+            style="@style/Buttons"
+            android:text="Main Square"
+            />
+
+        <Button
+            android:id="@+id/two"
+            style="@style/Buttons"
+            android:text="Central Office"
+            />
+        <Button
+            android:id="@+id/three"
+            style="@style/Buttons"
+            android:text="Library"
+            />
+        <Button
+            android:id="@+id/four"
+            style="@style/Buttons"
+            android:text="CV Raman Auditorium"
+            />
+        <Button
+            android:id="@+id/fourteen"
+            style="@style/Buttons"
+            android:text="DOCSE"/>
+        <Button
+            android:id="@+id/five"
+            style="@style/Buttons"
+            android:text="KU Canteen"
+            />
+        <Button
+            android:id="@+id/six"
+            style="@style/Buttons"
+            android:text="School of Science"
+
+
+            />
+        <Button
+            android:id="@+id/seven"
+            style="@style/Buttons"
+
+            android:text="Biotechnology Block"
+
+
+            />
+        <Button
+            android:id="@+id/eight"
+            style="@style/Buttons"
+            android:text="School of engineering"
+
+
+            />
+        <Button
+            android:id="@+id/nine"
+            style="@style/Buttons"
+            android:text="New DOCSE"
+
+
+            />
+        <Button
+            android:id="@+id/ten"
+            style="@style/Buttons"
+
+            android:text="Lecture Hall"
+
+
+            />
+        <Button
+            android:id="@+id/eleven"
+            style="@style/Buttons"
+
+            android:text="Civil and geomatics"
+
+
+            />
+        <Button
+            android:id="@+id/twelve"
+            style="@style/Buttons"
+            android:text="Department of Pharmacy"/>
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+</RelativeLayout>
